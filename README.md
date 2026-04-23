@@ -4,14 +4,14 @@ A machine that can morph into any machine.
 In order to launch it from the command line or as a Python subprocess:
 ```bash
 echo "Theodotos-Alexandreus: Become what you need to be now, machine." \
-  | uvx meta-machine \
+  | uvx --fron git+https://github.com/machina-ratiocinatrix/meta-machine meta-machine \
     --provider-api-key=sk-proj-... \
     --github-token=ghp_... 
 ```
 
 Or, with a local pip installation:
 ```bash
-pip install meta-machine
+python3 -m pip install --user git+https://github.com/machina-ratiocinatrix/meta-machine.git
 ```
 Set the environment variables:
 ```bash
