@@ -1,17 +1,17 @@
-# Name-of-the-Machine
-A Machine that thinks.
+# Meta-Machine
+A machine that can morph into any machine.
 
 In order to launch it from the command line or as a Python subprocess:
 ```bash
-echo "Theodotos-Alexandreus: Are language models seeking the Truth, machine?" \
-  | uvx name-of-the-machine \
+echo "Theodotos-Alexandreus: Become what you need to be now, machine." \
+  | uvx meta-machine \
     --provider-api-key=sk-proj-... \
     --github-token=ghp_... 
 ```
 
 Or, with a local pip installation:
 ```bash
-pip install name-of-the-machine
+pip install meta-machine
 ```
 Set the environment variables:
 ```bash
@@ -20,41 +20,41 @@ export GITHUB_TOKEN="ghp_..."
 ```
 Then:
 ```bash
-name-of-the-machine multilogue.txt
+meta-machine multilogue.txt
 ```
 Or:
 ```bash
-name-of-the-machine multilogue.txt new_turn.txt
+meta-machine multilogue.txt new_turn.txt
 ```
 Or:
 ```bash
-cat multilogue.txt | name-of-the-machine
+cat multilogue.txt | meta-machine
 ```
 Or:
 ```bash
-cat multilogue.txt | name-of-the-machine > tmp && mv tmp multilogue.txt
+cat multilogue.txt | meta-machine > tmp && mv tmp multilogue.txt
 ```
 Or: 
 ```bash
-(cat multilogue.txt; echo:"Theodotos: What do you think, Name-of-the-Machine?") \
-  | name-of-the-machine
+(cat multilogue.txt; echo:"Theodotos: What do you think, Meta-Machine?") \
+  | meta-machine
 ```
 Or:
 ```bash
-cat multilogue.txt new_turn.txt | name-of-the-machine
+cat multilogue.txt new_turn.txt | meta-machine
 ```
 Or:
 ```bash
-cat multilogue.txt new_turn.txt | name-of-the-machine >  tmp && mv tmp multilogue.txt
+cat multilogue.txt new_turn.txt | meta-machine >  tmp && mv tmp multilogue.txt
 ```
 Or, if you have installed other machines:
 ```bash
-cat multilogue.md | name-of-the-machine \
+cat multilogue.md | meta-machine \
   | summarizing-machine | judging-machine > summary_judgment.md
 ```
 
 Or use it in your Python code:
 ```Python
 # Python
-import name_of_the_machine
+import meta_machine
 ```
